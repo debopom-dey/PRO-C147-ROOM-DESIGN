@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://aframe.io/releases/0.6.0/aframe.min.js"> </script>
+</head>
+<body>
+     <a-scene>
+       <a-entity position="0 0 15">
+                <a-camera></a-camera>
+            </a-entity>
+        <a-sky  src="bg.jpg" rotation="90 90 180"></a-sky>
+        <a-cone
+        color="red"
+        position="0 12.5 0"
+        radius-top="0.2"
+        radius-bottom="1"
+        ></a-cone>
+        <a-sphere color="white" position="0 11.5 0" radius="0.6"></a-sphere>
+        <a-cylinder
+          color="black"
+          radius="0.1"
+          height="2"
+          position="0 13 0"
+        ></a-cylinder>
+      <a-plane
+      src="carpet.jpg"
+      position="0 -0.9 0.5"
+      rotation="-90 0 0"
+      width="15"
+      height="10"
+    ></a-plane>
+
+    <a-box
+    src="wall.png"
+    position="0 7.5 -4.5"
+    width="20"
+    height="20"
+  >
+  </a-box>
+
+<a-plane
+src="tv.jpg"
+position="0 7 4"
+rotation="0 0 0"
+width="5"
+height="3"
+></a-plane>
+
+<a-cylinder
+color="#F0DEB4"
+radius="1"
+position="6.5 -1.4 0"
+></a-cylinder>
+<a-cylinder
+color="#F0DEB4"
+  radius="0.3"
+  position="6.5 -0.5 0"
+  height="1.2"
+>
+</a-cylinder>
+<a-cylinder
+color="#F0DEB4"
+  position="6.5 0 0"
+  rotation="0 0 0"
+  radius="1.5"
+  height="0.2"
+></a-cylinder>
+<a-cylinder
+color="#F0DEB4"
+  position="7.8 1 0"
+  rotation="90 -90 0"
+  radius="1.2"
+  height="0.4"
+></a-cylinder>
+
+<a-cylinder
+radius="1"
+position="-6.5 -1.4 0"
+color="#F0DEB4"
+></a-cylinder>
+
+<a-cylinder
+color="#F0DEB4"
+  radius="0.3"
+  position="-6.5 -0.5 0"
+  height="1.2"
+>
+</a-cylinder>
+<a-cylinder
+color="#F0DEB4"
+  position="-6.5 0 0"
+  rotation="0 0 0"
+  radius="1.5"
+  height="0.2"
+></a-cylinder>
+<a-cylinder
+color="#F0DEB4"
+  position="-7.8 1 0"
+  rotation="90 -90 0"
+  radius="1.2"
+  height="0.4"
+></a-cylinder>
+
+<a-box
+src="table.jpg"
+width="10"
+height="5"
+position="0 1 0"
+rotation="90 0 0"
+depth="0.2"
+>
+<a-cylinder
+  src="table.jpg"
+  height="2"
+  radius="1.2"
+  rotation="90 0 0"
+  position="0 -1 1"
+></a-cylinder>
+</a-box>
+    </a-scene>
+
+</body>
+</html>
